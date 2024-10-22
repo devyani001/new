@@ -379,3 +379,56 @@ video {
     padding: 20px 15px;
     border: 1px solid none;
 }
+
+.aboutpage img{ 
+    width: 100%;
+    height: 500px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+     
+} 
+
+/* .sub-header{
+    /* height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(C:\Users\ASUS\OneDrive\Desktop\BrainHub\create-an-image-for-an-about-us-page-with-a-soft-w-QgSJF0bfT0GT8ZmzE7VNdA-NJsTKHNUSEu40Cae6ScC4g.jpeg);
+    background-position: center;
+    background-size: cover;
+
+
+    min-height: 100vh; 
+    width: 100%;
+    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(https://images.collegedunia.com/public/reviewPhotos/369496/inbound6449048373204272265.jpg?mode=cover); */
+    /* background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(https://wallpaperaccess.com/full/4230797.jpg); */
+    /* background-image: url("C:\Users\ASUS\OneDrive\Desktop\BrainHub\create-an-image-for-an-about-us-page-with-a-soft-w-QgSJF0bfT0GT8ZmzE7VNdA-NJsTKHNUSEu40Cae6ScC4g.jpeg"); */
+    /* background-color: yellow; 
+    background-size: cover;
+    background-position: center;
+    /* position: relative; 
+} */
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+} 
+.about-col{
+    flex-basis: 50%;
+    /* position: absolute; */
+    /* right: 5px; */
+}
+.about-col img{
+    
+    width: 100%;
+}
+#left1{
+    padding-left: 150px;
+}
+#right1{
+    padding-right: 150px;
+}
+
+/* hamburger icon
+.line{
+    display: none;
+} */
