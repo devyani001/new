@@ -341,17 +341,20 @@ video {
 .owner{
     color: darkgrey; 
     position: absolute; 
-    padding-top: 160px; 
+    
     left: 610px;
     font-family: "playfair Display";
-    
+    color: darkgrey; 
+    position:absolute; 
+    padding-top:160px; 
+    left:600px
 }
 
 .devil-emoji {
     color:darkgrey; 
     position:absolute; 
-    padding-top:158px; 
-    left: 902px;
+    padding-top:160px; 
+    left: 890px;
 }
 
 .uprfooter {
@@ -359,7 +362,8 @@ video {
     font-size: 18px; 
     color:darkgrey; 
     position:absolute; 
-    top: 2300px; 
+    /* top: 2300px;  */
+    top: 1180px;
     left: 190px; 
     font-family: "playfair display";
 }
@@ -372,7 +376,6 @@ video {
     border: 1px solid none;
     height: 50px;
     display: flex;
-
 }
 
 .follow i{

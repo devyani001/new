@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- /*to check github*/ -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <section class="sub-header" id="devyani">
+    <section class="sub-header" id="devyani" style="position: relative;">
         <div class="aboutpage">
             
             <img src="https://ideogram.ai/assets/image/lossless/response/GGP1JCM1Q7quJOuLXyjmMw" alt="" style="position: relative; top:0;">
@@ -25,7 +26,7 @@
                 <!-- BrainHub -->
             </div>
        
-            <div class="navbar" id="navlinks">
+            <div class="navbar" id="navlinks" style="flex-direction: column;">
                 <!-- <i class="fa-solid fa-xmark" onclick="hideMenu()"></i> -->
                 <ul class="content">
                     <li style="position: absolute; top: 10px; right:350px"><a href="index.html" style="color: #112A46;">Home</a></li> 
@@ -35,6 +36,11 @@
                 </ul> 
             </div>  
             <!-- <i class="fa-solid fa-bars"  onclick="showMenu()"></i> -->
+            <a href="#">
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+                <!-- <p class="burger" id="toggle">Burger</p> -->
+            <i class="fa-solid fa-bars" class="burger" id="toggle"></i>
+            </a>
         </nav> 
     </section>
 
@@ -57,37 +63,198 @@
 
             <!-- footer -->
 
-<section class="footer"> 
-    <h4 style="padding-top:30px;">About Us</h4>
-    <p>
-        <p class="background" style="padding-bottom:30px">
-            BrainHub is your one-stop destination for accessing a vast repository of question papers from various semesters and courses.
-            Designed to help <br>college students prepare better for their exams, our website offers a user-friendly interface that allows you to
-            easily search and download past <br> question papers. Whether you're looking for last semester's finals or midterm papers from a
-            few years ago, BrainHub <br> has got you covered.
-        </p>
-</section>
 
-</section>
+            <div class="bigbackground">
+                <h4 class="background" id="aboutus" style="color: black">About Us</h4> 
+                <p class="background" id="text" style="color: black; padding-bottom:50px">
+                    BrainHub is your one-stop destination for accessing a vast repository of question papers from various semesters and courses.
+                    Designed to help <br>college students prepare better for their exams, our website offers a user-friendly interface that allows you to
+                    easily search and download past <br> question papers. Whether you're looking for last semester's finals or midterm papers from a
+                    few years ago, BrainHub <br> has got you covered.
+                </div>
 
-<!-- <div class="footimg" style="background-image: url(C:\Users\ASUS\OneDrive\Desktop\BrainHub\Black and White Creative Profile Information LinkedIn Article Cover Image.jpg)"> -->
-    <img src="C:\Users\ASUS\OneDrive\Desktop\BrainHub\Black and White Creative Profile Information LinkedIn Article Cover Image.jpg" alt="" style="width: 100%; height:250px; position:absolute;">
-    <div style="font-weight: 700; color:darkgrey; position:absolute; top:1200px; left:130px">Have any questions or need further assistance? Feel free to reach out to us through our contact page. We're here to help you make the most of our resources</div>
-    <div class="icons" style="color:darkgrey; position:absolute; padding-top:90px; left:675px">
-        <i class="fa-brands fa-linkedin-in" id="apps"></i>
-        <i class="fa-brands fa-facebook-f" id="apps"></i>
-        <i class="fa-brands fa-twitter" id="apps"></i>
-        <i class="fa-brands fa-square-instagram" id="apps"></i>    
-    </div>
-    <div class="owner">
-        <div class="owner-name"> 
-            <p class="owner" style="color: darkgrey; position:absolute; padding-top:130px; left:600px">@BrainHub.com | 06 July 2024, 2.36.17 PM</p><hr>
-        </div>
-        <div class="devil-emoji" style="color:darkgrey; position:absolute; padding-top:130px; left:837px;">
-            <!-- <img src="C:\Users\ASUS\OneDrive\Desktop\BrainHub\th-removebg-preview.png" alt="" style="width:20px"> -->
-        </div> 
-        <!-- <div style="display:block">Have any questions or need further assistance? Feel free to reach out to us through our contact page. We're here to help you make the most of our resources</div> -->
-    </div>
+
+
+
+            <img src="" alt="" class="footerbg" style="background-color:#0a1128; width: 100%; height:250px; position:absolute">
+            <div class="uprfooter">Have any questions or need further assistance? Feel free to reach out to us through our contact page. We're here to help you make the most of our resources</div>
+            <div class="follow">
+                <i class="fa-brands fa-linkedin-in" id="linkdin"></i>
+                <i class="fa-brands fa-facebook-f" id="facebook"></i>
+                <i class="fa-brands fa-twitter" id="twitter"></i>
+                <i class="fa-brands fa-square-instagram" id="instagram"></i>    
+            </div>
+            <div class="owners">
+                <div class="owner-name"> 
+                    <p class="owner">@BrainHub.com | 06 July 2024, 2.36.17 PM</p>
+                </div>
+                <div class="devil-emoji">
+                    <img src="devilbrainhubemoji-removebg-preview.png" alt="" style="width:20px">
+                </div> 
+                <!-- <div style="display:block">Have any questions or need further assistance? Feel free to reach out to us through our contact page. We're here to help you make the most of our resources</div> -->
+            </div>
+
+
+
+
+
+
+            <script class="imag" src="https://kit.fontawesome.com/8fdcd62239.js" crossorigin="anonymous"></script> 
+
+        <script>
+            const toggleButton = document.getElementById('toggle');
+            const navLinks = document.getElementById('navlinks');
+            toggleButton.addEventListener('click', () => {
+                navLinks.classList.toggle('active');
+            })
+
+        </script>
+
+<!-- media query -->
+
+
+<style>
+    @media screen and (max-width: 479px) {
+
+        * {
+    
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .uprfooter {
+            top: 1160px;
+            text-align: center;
+            left: 0;
+            margin: 0 25px 0 25px;
+            font-size: 15px;
+        }
+
+        .follow {
+            border: 3px solid none;
+            
+            left: 140px;
+        }
+
+        .follow i{
+            
+            border: 2px solid none;
+            
+        }
+
+        .owner {
+            
+            left: 70px;
+        }
+
+        .devil-emoji {
+            left: 360px;
+        }
+
+        .logo {
+            left: 30px;
+            width: 80px;
+            height: 80px;
+        }
+
+        .row {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #left1{
+            padding-left: 0px;
+            text-align: center;
+            font-size: 15px;
+            font-family: 'playfair display';
+        }
+
+        #right1{
+            padding: 0 25px 0 25px;
+        }
+
+        .bigbackground {
+            text-align: center;
+            /* margin-top: 10px; */
+            margin: 25px;
+            
+        }
+
+       .aboutpage img {
+            height: 250px;
+       }
+
+       .burger {
+        display: block;
+        color: yellow;
+        margin-right: 20px;
+    }
+
+    #toggle {
+        display: block;
+        color: yellow;
+        margin-right: 20px;
+        position: absolute;
+        top: 30px;
+        right: 20px;
+    }
+
+    .navbar {
+        border: 2px solid none;
+        flex: 1;
+        align-self: start;
+        text-align: right;
+        background-color: #9aa5b1;
+        background-size: cover;
+        position: absolute;
+        height: 100vh;
+        font-size: 16px;
+        left: -500px;
+        padding: 20px 50px;
+        top: 100px;
+        width: 100%;
+        transition: 0.2s ease-in-out;
+    }
+
+    .navbar.active {
+        left: 0px;
+        z-index: 2;
+    }
+
+    .navbar ul li a {
+        color: red;
+        text-decoration: none;
+        /* display: none; */
+        /* background-color: wheat; */
+    }
+
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .content {
+        /* background-color: aliceblue; */
+    }
+
+    .burger {
+        display: block;
+        color: yellow;
+        margin-right: 20px;
+    }
+
+
+    
+
+    
+
+
+    }
+</style>
+
+
 
 
 <script class="imag" src="https://kit.fontawesome.com/8fdcd62239.js" crossorigin="anonymous"></script>

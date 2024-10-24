@@ -1,10 +1,14 @@
             /* Laptop  */
 
-            @media screen and (max-width: 991px) {}
+            @media screen and (max-width: 991px) {
+
+            }
 
             /* Tablet  */
 
-            @media screen and (max-width: 767px) {}
+            @media screen and (max-width: 767px) {
+                
+            }
 
             /* Mobile */
 
@@ -25,8 +29,9 @@
                 .logo {
                     border: 2px solid none;
                     height: 95px;
-                    width: 145px;
+                    width: 130px;
                     background-position: start;
+                    margin-left: 0;
                 }
 
                 .left-side {
@@ -45,10 +50,10 @@
                     flex: 1;
                     align-self: start;
                     text-align: right;
-                    background-image: url("https://i.pinimg.com/236x/28/7f/81/287f813bc8f83935dd96dfdb92d534a9.jpg");
+                    background-color: #9aa5b1;
                     background-size: cover;
                     position: absolute;
-                    width: 100px;
+                    height: 100vh;
                     font-size: 16px;
                     left: -500px;
                     padding: 20px 50px;
@@ -63,7 +68,7 @@
                 }
 
                 .navbar ul li a {
-                    color: red;
+                    color: #0d2436;
                     text-decoration: none;
                     /* display: none; */
                     /* background-color: wheat; */
@@ -110,7 +115,6 @@
                     font-size: 16px;
                 }
 
-                .logo {}
 
                 .clg-image {
                     width: 100%;
@@ -219,7 +223,7 @@
 
                 .uprfooter {
                     position: absolute;
-                    top: 3780px;
+                    top: 4000px;
                     left: 0;
                     color: rgb(255, 255, 255);
                     text-align: center;
@@ -229,9 +233,9 @@
                 }
 
                 .icons {
-                    color: red;
+                    color: yellow;
                     position: absolute;
-                    border: 2px solid red;
+                    border: 2px solid yellow;
                     width: 100%;
                     position: absolute;
                     /* padding-top: 10px;  */
@@ -250,7 +254,16 @@
 
 
 
-                /* BRANCH PAGE - IT */
+                /* about page */
+
+                .aboutpage img{ 
+                    width: 100%;
+                    height: 200px;
+                    background-image: url("https://ideogram.ai/assets/image/lossless/response/GGP1JCM1Q7quJOuLXyjmMw");
+                    /* padding-left: 20px; */
+                    /* padding-right: 20px; */
+                     
+                }
 
 
 
